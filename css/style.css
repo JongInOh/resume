@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container
+{
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr;
+    box-shadow: 0 0 55px 35px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side
+{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    height: 100%;
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid rgb(255, 255, 255,0.2);
+}
+.profiletext .imgbox
+{
+    position: relative;
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profiletext .imgbox img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+}
+.profiletext h2
+{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.profiletext h2 span
+{
+    font-size: 0.5em;
+    font-weight: 300;
+}
+.contactinfo
+{
+    padding-top: 30px;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactinfo h3
+{
+    font-size: 20px;
+    font-weight: 800;
+}
+.contactinfo ul
+{
+    position: relative;
+}
+.contactinfo ul li 
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactinfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 22px;
+    color: #03a9f4;
+}
+.contactinfo ul li span
+{
+    color: #fff;
+    font-weight: 400;
+}
+.contactinfo.education li
+{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.contactinfo.education h5
+{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contactinfo.education h4
+{
+    color: #fff;
+    font-weight: 400;
+}
+.contactinfo.skill .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.contactinfo.skill .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.contactinfo.license h4
+{
+    color: #fff;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.container .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.container .right_side h2
+{
+    color: #003147;
+    border-bottom: solid 3px #003147;
+}
+.about
+{
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: #003147;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+/* 기술소개 */
+
+.main_text{
+    font-size: 35px;
+    font-weight: 800;
+    color: #003147;
+    margin: 50px 0px 50px 0px;}
+.skills
+{
+    position: relative;
+    margin: 0 auto;
+    background-color:  rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.skills h2
+{
+    color: #003147;
+    text-transform: uppercase;
+
+}
+.cando
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 25px;
+    list-style: none;
+    /* border: solid 3px #003147; */
+    background-color: #003147;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.cando a
+{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+.cando li
+{
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.project
+{
+    position: relative;
+    margin: 0 auto;
+    color: #003147;
+    box-shadow: 0 0 55px 35px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+.project h2
+{
+    color: #003147;
+    text-transform: uppercase;
+}
+.proj1 h3
+{
+    margin: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.proj_ex
+{
+    margin: 20px 40px;
+    line-height: 1.5;
+}
+.proj_ex1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 25px;
+}
+.proj_ex1 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.proj_ex1 img
+{
+    width: 80%;
+    height: 80%;
+}
+.proj_icon p{
+    margin-top: 10px;
+}
+/* proj2 */
+.proj2 h3
+{
+    margin: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.proj_ex2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: 25px;
+}
+.proj_ex2 p{
+    font-size: 17px;
+}
+.proj_ex2 img
+{
+    width: 80%;
+    height: 80%
+}
+.proj_info2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.proj_info2 p:first-child {
+    margin-bottom: 20px;    
+}
+.proj_info2 p{
+    line-height: 1.5;
+}
+.name{
+    font-weight: 900;
+}
+.proj_info1 .proj_info2{
+    background-color: #aaaaaa;
+}
+
+/* .proj_icon {
+    border-bottom: solid 1px #003147;
+}
+.proj_icon1 {
+    border-bottom: solid 1px #003147;
+} */
+.pro
