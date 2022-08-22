@@ -165,7 +165,7 @@
     
         <div class="skills">
             <h2 class="main_text">SKILLS</h2>
-            <ul class="cando">
+            <ul class="cando wow fadeInDown" data-wow-delay="0.4">
                 <li>
                     <a class="menubar">HTML</a>
                     <ul class="nav_menu close">
@@ -195,22 +195,8 @@
                         <li></li>
                     </ul>
                 </li>
-                <div class="close"></div>
             </ul>
         </div>
-    
-<script>
-    $(document).ready(function(){
-    $('.menubar').click(function(){
-        const nav_menu = document.getElementsByClassName('nav_menu');
-        if($(nav_menu).hasClass('close')){
-            $(nav_menu).addClass('more').removeClass('close');
-        }else if($(nav_menu).hasClass('more')){
-            $(nav_menu).addClass('close').removeClass('more');
-        }
-    });
-});
-</script>
 
         <div class="project">
             <h2 class="main_text">portfolio</h2>
@@ -246,47 +232,41 @@
                     <p><strong>디자인시안</strong>&nbsp;<a  class="https" href="https://xd.adobe.com/view/f608027b-e8cb-443a-a512-91ead94bf53e-a35b/specs/">https://xd.adobe.com/view/f608027b-e8cb-443a-a512-91ead94bf53e-a35b/specs/</a></p>
                     <p><strong>구현페이지</strong>&nbsp;<a  class="https" href="https://gaeul11.github.io/Resoft_02/index.html">https://gaeul11.github.io/Resoft_02/index.html</a></p>
                 </div>
-                
-                <div class="proj_ex2">
-                    <div class="proj_info1 magin50">
-                        <img src="./part.PNG">
+                <div class="flexbox">
+                    <div class="proj_ex2 wow fadeInLeft" data-wow-delay="0.3s">
+                        <img src="./part.gif">
+                        <div class="proj_box">
+                            <p class="name">담당파트</p>
+                            <p>메뉴바 부분과 정보마당부분을 맡았습니다.</p>
+                        </div>
                     </div>
-                    <div class="proj_info2 magin50">
-                        <p class="name">담당파트</p>
-                        <p>메뉴바 부분과 정보마당부분을 맡았습니다.</p>
-                    </div>
-
-                    <div class="proj_info2 magin50">
-                        <p class="name">메인페이지 슬라이더</p>
-                        <p>메인페이지 슬릭라이브러리를 활용하여 슬라이더효과사용</p>
-                        <p>슬라이더효과를 직관적으로 사용할수있게 아이콘으로 사용</p>
-                    </div>
-                    <div class="proj_info1 magin50">
+                    <div class="proj_ex2 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="proj_box">
+                            <p class="name">메인페이지 슬라이더</p>
+                            <p>메인페이지 슬릭라이브러리를 활용하여 슬라이더효과사용</p>
+                            <p>슬라이더효과를 직관적으로 사용할수있게 아이콘으로 사용</p>
+                        </div>
                         <img src="./main.gif">
                     </div>
-                    
-                    <div class="proj_info1 magin50">
+                    <div class="proj_ex2 wow fadeInLeft" data-wow-delay="0.3s">
                         <img src="./menu.gif">
+                        <div class="proj_box">
+                            <p class="name">메뉴바</p>
+                            <p>jquery를 활용하여 메뉴바를 통해 페이지이동가능</p>
+                            <p>페이지 스크롤시 메뉴바 상단고정</p>
+                        </div>
                     </div>
-                    <div class="proj_info2 magin50">
-                        <p class="name">메뉴바</p>
-                        <p>jquery를 활용하여 메뉴바를 통해 페이지이동가능</p>
-                        <p>페이지 스크롤시 메뉴바 상단고정</p>
-                    </div>
-
-                    <div class="proj_info2 magin50">
-                        <p class="name">정보마당</p>
-                        <p>wow라이브러리를 활용하여 애니메이션효과사용</p>
-                        <p>jquery를 활용하여 더보기클릭시 숨어있던 사진나타남</p>
-                        <p>정보마당의 이미지를 클릭하면 이미지상세페이지로 이동</p>
-                    </div>
-                    <div class="proj_info1 magin50">
+                    <div class="proj_ex2 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="proj_box">
+                            <p class="name">정보마당</p>
+                            <p>wow라이브러리를 활용하여 애니메이션효과사용</p>
+                            <p>jquery를 활용하여 더보기클릭시 숨어있던 사진나타남</p>
+                            <p>정보마당의 이미지를 클릭하면 이미지상세페이지로 이동</p>
+                        </div>
                         <img src="./info.gif">
                     </div>
-                    
-
-
                 </div>
+                
             </div>
         </div>
 
