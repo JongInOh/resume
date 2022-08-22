@@ -8,17 +8,38 @@
     <script src="https://kit.fontawesome.com/b565c9209d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        new WOW().init();
+    });
+    </script>
 </head>
 <body>
-    <section>
+    <div class="intro">
+        <svg width=100% height=400 viewBox="0 0 658 136">
+            <text x="20%" y="50%">R</text>
+            <text x="30%" y="50%">E</text>
+            <text x="40%" y="50%">S</text>
+            <text x="49.5%" y="50%">U</text>
+            <text x="60%" y="50%">M</text>
+            <text x="71.5%" y="50%">E</text>
+        </svg>
+        <div>
+            <a class="button wow fadeIn" data-wow-delay="3.1s" id="start" href="#container">
+                <span>start</span>
+            </a>
+        </div>
+    </div>
+    
+    <section id="container">
         <div class="container">
-            <div class="left_side">
+            <div class="left_side wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="profiletext">
                     <div class="imgbox">
-                        <img src="img.PNG">
+                        <img src="/img.png">
                     </div>
                     <h2>오 종 인<br><span>도전적인 열정의 소유자</span></h2>
                 </div>
@@ -44,7 +65,6 @@
                         </li>
                     </ul>
                 </div>
-    
                 <div class="contactinfo education">
                     <h3 class="title">Education</h3>
                     <ul>
@@ -95,7 +115,7 @@
                 </div>
     
                 <div class="contactinfo license">
-                    <h3 class="title">License</h3>
+                    <h3 class="title">License</h3>  
                     <h4>자격증명 운전면허증 (1종보통)</h4>
                     <h4>등록번호 22-13-092631-81</h4>
                     <h4>발행기관 대구지방경찰청</h4>
@@ -104,19 +124,19 @@
             </div>
             
             
-            <div class="right_side">
+            <div class="right_side wow fadeInRight" data-wow-delay="0.4s">
                 <div class="about">
                     <h2 class="title2">자기소개</h2>
                     <p>새로운 일을 시도하는 데 진취적인 자세로 임해왔습니다. 
-                        인생의 양분이 되어줄 경험을 얻을 수 있었던 것도 끊임없는 도전 덕분입니다.<br><br>
+                        인생의 양분이 되어줄 경험을 얻을 수 있었던 것도 끊임없는 도전 덕분입니다.<br>
                         
-                        어린 시절에만 해도 사교성이 뛰어난 편은 아니었지만, 대구ai스쿨 팀 프로젝트를 통하여 긍정적으로 변화할 수 있었습니다. 이 프로젝트에 참여하는 동안 내성적인 성격을 딛고 사람들과 적극적으로 소통할 수 있었기 때문입니다. 또한, 우선순위에 따른 계획을 세우고 사람들과 유연하게 커뮤니케이션하면서 협업하는 법을 배울 수 있었으며, 팀워크도 중요하게 여기게 되었습니다. 이를 통하여 성공적인 프로젝트 성과발표회를 하며 가슴 벅찬 성취감을 느꼈습니다. 
+                        어린 시절에만 해도 사교성이 뛰어난 편은 아니었지만, 대구AI스쿨 팀 프로젝트를 통하여 긍정적으로 변화할 수 있었습니다. 이 프로젝트에 참여하는 동안 내성적인 성격을 딛고 사람들과 적극적으로 소통할 수 있었기 때문입니다. 또한, 우선순위에 따른 계획을 세우고 사람들과 유연하게 커뮤니케이션하면서 협업하는 법을 배울 수 있었으며, 팀워크도 중요하게 여기게 되었습니다. 이를 통하여 성공적인 프로젝트 성과발표회를 하며 가슴 벅찬 성취감을 느꼈습니다. 
                         개발자직무를 수행할 때도 진취적인 열정을 쏟아내면서 조직에 보탬이 되고 싶습니다.
                     </p>
                 </div>
                 <div class="about">
                     <h2 class="title2">장점과 단점</h2>
-                    <p>제 가장 큰 장점은 어떤 상황에서나 높은 성과를 창출하기 위해 노력한다는 점입니다. 시작한 일은 중도에 포기하지 않고 끝을 보는 자세를 길러왔습니다.<br><br>
+                    <p>제 가장 큰 장점은 어떤 상황에서나 높은 성과를 창출하기 위해 노력한다는 점입니다. 시작한 일은 중도에 포기하지 않고 끝을 보는 자세를 길러왔습니다.<br>
                         어린 시절부터 흥미가 싹튼 주제가 있으면 검색과 기록, 관찰 등 다양한 방법을 동원하여 깊이 있게 탐구해왔습니다. 덕분에 알지 못했던 부분까지 이해하는 것이 즐겁게 다가왔으며, 깊이 파고들기 위해 인내심을 가지고 몰두하는 자세도 기를 수 있었습니다. 다만 끝을 보는 성격으로 인해 완성도를 높이는 데 많은 시간을 할애하는 편입니다. 흥미가 있는 주제나 완벽해야 한다고 생각하는 일은 오래도록 붙드느라, 상대적으로 흥미가 적은 다른 일에 소홀하기 때문입니다. 이러한 단점을 보완하기 위해 일의 중요도를 파악하여 메모를 하고 우선순위에 따라 시간을 배분하여 일을 처리하고 있습니다. 기업에서 근무할 때도 중요성과 시의성에 따라 업무 계획을 세우고 실행하는 노력을 통해 작업의 효율성과 정확성을 높이고 싶습니다.
                     </p>
                 </div>
@@ -147,8 +167,8 @@
             <h2 class="main_text">SKILLS</h2>
             <ul class="cando">
                 <li>
-                    <a>HTML</a>
-                    <ul class="close">
+                    <a class="menubar">HTML</a>
+                    <ul class="nav_menu close">
                         <li class="f">기본페이지 제작 및 출력가능</li>
                         <li>기본 css 적용가능</li>
                         <li>HTML테그에대한 이해</li>
@@ -157,8 +177,8 @@
                 </li>
     
                 <li>
-                    <a>css</a>
-                    <ul class="close">
+                    <a class="menubar">css</a>
+                    <ul class="nav_menu close">
                         <li class="f">기본 css 적용 후 생성가능</li>
                         <li>페이지레이아웃에 대한 이해</li>
                         <li>이미지 호출 및 효과적용가능</li>
@@ -168,8 +188,8 @@
                 </li>
     
                 <li>
-                    <a>JAVASCRIPT</a>
-                    <ul class="close">
+                    <a class="menubar">JAVASCRIPT</a>
+                    <ul class="nav_menu close">
                         <li class="f">함수적용에 따른 기본적기능 활성화</li>
                         <li>jquery를 활용해 특정부분 css적용</li>
                         <li></li>
@@ -179,6 +199,19 @@
             </ul>
         </div>
     
+<script>
+    $(document).ready(function(){
+    $('.menubar').click(function(){
+        const nav_menu = document.getElementsByClassName('nav_menu');
+        if($(nav_menu).hasClass('close')){
+            $(nav_menu).addClass('more').removeClass('close');
+        }else if($(nav_menu).hasClass('more')){
+            $(nav_menu).addClass('close').removeClass('more');
+        }
+    });
+});
+</script>
+
         <div class="project">
             <h2 class="main_text">portfolio</h2>
             <div class="proj1">
@@ -186,18 +219,18 @@
                 <div class="proj_ex">
                     <p><strong>팀명</strong> project BD</p>
                     <p><strong>개발기간</strong> 2022.07.01 - 2022.07.15.</p>
-                    <p><strong>개발인원</strong> 6명</p>
-                    <p><strong>역할분담</strong> 각파트별 인원배분 및 작성</p>
-                    <p><strong>구현페이지</strong>&nbsp;<a href="https://sophia9901.github.io/Resoft_proj/">https://sophia9901.github.io/Resoft_proj/</a></p>
+                    <p><strong>개발인원 및 분담</strong> 6명 각파트별 인원배분 및 작성</p>
+                    <p><strong>주요기술</strong>HTML/CSS/JAVASCRIPT - HTML, CSS로 기본구조배치, wow라이브러리 활용, 반응형웹사이트구현 </p>
+                    <p><strong>구현페이지</strong>&nbsp;<a  class="https" href="https://sophia9901.github.io/Resoft_proj/">https://sophia9901.github.io/Resoft_proj/</a></p>
                 </div>
                 
                 <div class="proj_ex1">
                     <div class="proj_icon">
-                        <img src="/icon.PNG">
+                        <img src="./icon.PNG">
                         <p>담당파트요구사항</p>
                     </div>
                     <div class="proj_icon1">
-                        <img src="/icon1.gif">
+                        <img src="./icon1.gif">
                         <p>구현결과</p>
                     </div>
                 </div>
@@ -208,47 +241,47 @@
                 <div class="proj_ex">
                     <p><strong>팀명</strong> project BD</p>
                     <p><strong>개발기간</strong> 2022.07.18 - 2022.08.12.</p>
-                    <p><strong>개발인원</strong> 5명</p>
-                    <p><strong>역할분담</strong> 각파트별 인원배분 및 작성</p>
-                    <p><strong>디자인시안</strong>&nbsp;<a href="https://xd.adobe.com/view/f608027b-e8cb-443a-a512-91ead94bf53e-a35b/specs/">https://xd.adobe.com/view/f608027b-e8cb-443a-a512-91ead94bf53e-a35b/specs/</a></p>
-                    <p><strong>구현페이지</strong>&nbsp;<a href="https://gaeul11.github.io/Resoft_02/index.html">https://gaeul11.github.io/Resoft_02/index.html</a></p>
+                    <p><strong>개발인원 및 분담</strong> 5명 각파트별 인원배분 및 작성</p>
+                    <p><strong>주요기술</strong> HTML/CSS/JAVASCRIPT - HTML, CSS로 기본구조배치 각페이지에 필요한 JAVASCRIPT를 활용, 반응형웹사아트구현</p>
+                    <p><strong>디자인시안</strong>&nbsp;<a  class="https" href="https://xd.adobe.com/view/f608027b-e8cb-443a-a512-91ead94bf53e-a35b/specs/">https://xd.adobe.com/view/f608027b-e8cb-443a-a512-91ead94bf53e-a35b/specs/</a></p>
+                    <p><strong>구현페이지</strong>&nbsp;<a  class="https" href="https://gaeul11.github.io/Resoft_02/index.html">https://gaeul11.github.io/Resoft_02/index.html</a></p>
                 </div>
                 
                 <div class="proj_ex2">
-                    <div class="proj_info1">
-                        <img src="part.PNG">
+                    <div class="proj_info1 magin50">
+                        <img src="./part.PNG">
                     </div>
-                    <div class="proj_info2">
+                    <div class="proj_info2 magin50">
                         <p class="name">담당파트</p>
                         <p>메뉴바 부분과 정보마당부분을 맡았습니다.</p>
                     </div>
 
-                    <div class="proj_info2">
+                    <div class="proj_info2 magin50">f
                         <p class="name">메인페이지 슬라이더</p>
                         <p>메인페이지 슬릭라이브러리를 활용하여 슬라이더효과사용</p>
                         <p>슬라이더효과를 직관적으로 사용할수있게 아이콘으로 사용</p>
                     </div>
-                    <div class="proj_info1">
-                        <img src="main.gif">
+                    <div class="proj_info1 magin50">
+                        <img src="./main.gif">
                     </div>
                     
-                    <div class="proj_info1">
-                        <img src="menu.gif">
+                    <div class="proj_info1 magin50">
+                        <img src="./menu.gif">
                     </div>
-                    <div class="proj_info2">
+                    <div class="proj_info2 magin50">
                         <p class="name">메뉴바</p>
                         <p>jquery를 활용하여 메뉴바를 통해 페이지이동가능</p>
                         <p>페이지 스크롤시 메뉴바 상단고정</p>
                     </div>
 
-                    <div class="proj_info2">
+                    <div class="proj_info2 magin50">
                         <p class="name">정보마당</p>
                         <p>wow라이브러리를 활용하여 애니메이션효과사용</p>
                         <p>jquery를 활용하여 더보기클릭시 숨어있던 사진나타남</p>
                         <p>정보마당의 이미지를 클릭하면 이미지상세페이지로 이동</p>
                     </div>
-                    <div class="proj_info1">
-                        <img src="info.gif">
+                    <div class="proj_info1 magin50">
+                        <img src="./info.gif">
                     </div>
                     
 
@@ -259,6 +292,5 @@
 
         
     </section>
-    
 </body>
 </html>
